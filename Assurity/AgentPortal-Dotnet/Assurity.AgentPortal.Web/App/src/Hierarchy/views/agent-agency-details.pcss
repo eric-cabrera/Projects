@@ -1,0 +1,116 @@
+.agent-agency-table {
+  &__details {
+    padding-left: 1.2em;
+    width: 400px;
+  }
+  &__details-container {
+    margin: 1em 0;
+    display: inline-block;
+  }
+  &__contact-details {
+    padding-left: 1.2em;
+  }
+  &__requirement-details {
+    padding-left: 1.2em;
+  }
+
+  &__agent-level {
+    display: inline-block;
+    width: 3em;
+    @media (width <= 600px) {
+      width: 2em;
+    }
+  }
+  &__container__mobile {
+    margin: 1em;
+  }
+  &__active-details {
+    &__desktop {
+      display: flex;
+      flex-direction: row;
+      margin: 1em 0;
+      @media (width <= 600px) {
+        display: none;
+      }
+    }
+    &__mobile {
+      display: flex;
+      flex-direction: row;
+      @media (width >= 600px) {
+        display: none;
+      }
+    }
+  }
+  &__details {
+    &__desktop {
+      display: flex;
+      flex-direction: column;
+      margin: 1em 0;
+      @media (width <= 600px) {
+        display: none;
+      }
+    }
+    &__mobile {
+      display: flex;
+      flex-direction: row;
+      gap: 1em 10em;
+      @media (width >= 600px) {
+        display: none;
+      }
+    }
+  }
+  &__details_title {
+    font-weight: bold;
+    &__mobile {
+      padding-top: 1em;
+      white-space: nowrap;
+      font-size: 0.875rem;
+      line-height: 1.1;
+    }
+  }
+  &__details_field {
+    padding: 0.5em 0 0 0.5em;
+    &__mobile {
+      font-weight: bold;
+      width: 43vw;
+      min-height: 1.5em;
+    }
+    &__mobile-wide {
+      font-weight: bold;
+    }
+  }
+  &__container__mobile {
+    @media (width >= 600px) {
+      display: none;
+    }
+    &_title {
+      font-weight: bold;
+    }
+  }
+  &__details__mobile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  &__details__mobile-column {
+    width: 45vw;
+  }
+  &__pending-details__mobile {
+    display: flex;
+  }
+  &__pending-details-column__mobile {
+    width: 46vw;
+  }
+  &__contact-details__mobile {
+    height: 16em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  &__details_field__mobile {
+    overflow-wrap: anywhere;
+  }
+}
+.mobile-data-table__dotted-divider {
+  margin: 0.5em 0;
+}

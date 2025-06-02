@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "Vue.volar",
+        "esbenp.prettier-vscode",
+        "sibiraj-s.vscode-scss-formatter",
+        "eamodio.gitlens"
+    ]
+}

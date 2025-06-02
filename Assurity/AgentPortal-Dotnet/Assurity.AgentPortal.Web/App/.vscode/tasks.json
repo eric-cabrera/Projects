@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "npm: build-only",
+            "type": "npm",
+            "script": "build-only",
+            "group": "build",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "detail": "Builds the project without starting the development server"
+        },
+        {
+            "label": "npm: dev",
+            "type": "npm",
+            "script": "dev",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "custom",
+                "pattern": {
+                    "regexp": "^$"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": "built in .*s"
+                }
+            },
+            "detail": "Starts the development server"
+        },
+        {
+            "label": "Run Build and Dev",
+            "dependsOn": [
+                "npm: build-only",
+                "npm: dev"
+            ],
+            "dependsOrder": "sequence",
+            "problemMatcher": []
+        }
+    ]
+}

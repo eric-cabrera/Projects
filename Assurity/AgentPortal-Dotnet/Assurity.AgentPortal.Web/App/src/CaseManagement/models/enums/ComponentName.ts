@@ -1,0 +1,16 @@
+export enum ComponentName {
+  StatusHistoryName = "StatusHistoryName",
+  StatusHistoryDate = "StatusHistoryDate",
+  SectionHeading = "SectionHeading",
+  StatusHistoryMobile = "StatusHistoryMobile",
+  PrimaryInsuredPerson = "PrimaryInsuredPerson",
+  SpousePerson = "SpousePerson",
+  ChildPerson = "ChildPerson",
+  RelatedPerson = "RelatedPerson",
+  ClientSectionMobile = "ClientSectionMobile",
+  PrimaryInsuredProduct = "PrimaryInsuredProduct",
+  SpouseProduct = "SpouseProduct",
+  ChildProduct = "ChildProduct",
+  ProductSectionMobile = "ProductSectionMobile",
+  StatusHistoryAction = "StatusHistoryAction",
+}

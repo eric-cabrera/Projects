@@ -1,0 +1,133 @@
+.content {
+  &__container {
+    margin-bottom: 5em;
+  }
+}
+.case-management {
+  &__title {
+    color: var(--primary-color);
+    margin: 0.75em 0 0 0;
+  }
+
+  &__header-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0.5em;
+
+    @media (width >= 960px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 0;
+    }
+  }
+
+  &__header-left {
+    display: flex;
+    gap: var(--spacing);
+    flex: 1 0 0;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    @media (width >= 960px) {
+      margin-bottom: 0;
+    }
+    & .active-details__filter-button--desktop {
+      height: 52px;
+      flex: 1;
+      @media (width >= 960px) {
+        flex: 0 1 auto;
+      }
+    }
+  }
+
+  &__header-selected-filters {
+    display: flex;
+    gap: var(--spacing);
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+  }
+}
+
+.case-management__status-modal {
+  border: solid;
+  font-weight: bold !important;
+}
+
+.progress-circle {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.start-new-app {
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 10px 0.5em 10px 44px;
+  max-height: 52px;
+  width: 100%;
+
+  @media (width >= 960px) {
+    width: 200px;
+  }
+
+  svg {
+    margin-left: auto;
+    @media (width >= 960px) {
+      margin-top: -5px;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    width: calc(100vw - var(--spacing) * 2);
+
+    @media (width >= 960px) {
+      width: 200px;
+    }
+
+    border: 1px solid var(--border-grey);
+    background: white;
+    z-index: 10;
+  }
+
+  &__links {
+    list-style-type: none;
+    padding: 0px;
+    li {
+      padding: 10px;
+      margin: 0;
+      &::before {
+        display: none;
+      }
+      &:hover {
+        background-color: var(--bg-grey);
+      }
+      a {
+        text-decoration: none;
+        color: var(--text-grey);
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.heading--1 {
+  margin: 0;
+}
+
+.title-sub-text {
+  margin: 0 0 2em;
+  display: none;
+  @media (width >= 960px) {
+    display: block;
+  }
+}
+
+.filters__header-view-as {
+  max-height: 52px;
+  height: 52px;
+}
