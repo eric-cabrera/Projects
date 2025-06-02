@@ -1,0 +1,860 @@
+[
+  {
+    "PBEN_ID": 8379169,
+    "PolicyNumber": "5051461911",
+    "CompanyCode": "01",
+    "BenefitSequence": 1,
+    "BenefitType": "BA",
+    "StatusCode": "A",
+    "StatusReason": "",
+    "PlanCode": "GH1715BI",
+    "StatusDate": 20240101,
+    "CoverageExpansion": {
+      "Details": [
+        {
+          "UnderwritingClassCode": "N",
+          "UnderwritingClassDescription": "Non Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "T",
+          "UnderwritingClassDescription": "Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "U",
+          "UnderwritingClassDescription": "Uni-Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "Z",
+          "UnderwritingClassDescription": "Other Insured"
+        }
+      ]
+    },
+    "MultipleInsureds": [
+      {
+        "NameId": 3567889,
+        "RelationshipToPrimaryInsured": "SPOUSE",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "U",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "U",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      }
+    ],
+    "BaseOrOtherRider": {
+      "Dividend": "0",
+      "PBEN_ID": 8379169,
+      "NumberOfUnits": 30,
+      "ValuePerUnit": 1000,
+      "AnnualPremiumPerUnit": 3.321
+    },
+    "BaseForUniversalLife": null,
+    "PolicyBenefitTypeSL": null,
+    "SpecifiedAmountIncrease": null,
+    "Supplemental": null,
+    "ProductCoverages": {
+      "Description": "CI GTM-B IA"
+    }
+  },
+  {
+    "PBEN_ID": 8379170,
+    "PolicyNumber": "5051461911",
+    "CompanyCode": "01",
+    "BenefitSequence": 2,
+    "BenefitType": "OR",
+    "StatusCode": "A",
+    "StatusReason": "",
+    "PlanCode": "CICANBI",
+    "StatusDate": 20240101,
+    "CoverageExpansion": {
+      "Details": [
+        {
+          "UnderwritingClassCode": "N",
+          "UnderwritingClassDescription": "Non Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "T",
+          "UnderwritingClassDescription": "Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "U",
+          "UnderwritingClassDescription": "Uni-Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "Z",
+          "UnderwritingClassDescription": "Other Insured"
+        }
+      ]
+    },
+    "MultipleInsureds": [
+      {
+        "NameId": 3567889,
+        "RelationshipToPrimaryInsured": "SPOUSE",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "U",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "U",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      }
+    ],
+    "BaseOrOtherRider": {
+      "Dividend": "",
+      "PBEN_ID": 8379170,
+      "NumberOfUnits": 30,
+      "ValuePerUnit": 1000,
+      "AnnualPremiumPerUnit": 4.3073
+    },
+    "BaseForUniversalLife": null,
+    "PolicyBenefitTypeSL": null,
+    "SpecifiedAmountIncrease": null,
+    "Supplemental": null,
+    "ProductCoverages": {
+      "Description": "Cancer Coverage"
+    }
+  },
+  {
+    "PBEN_ID": 8379171,
+    "PolicyNumber": "5051461911",
+    "CompanyCode": "01",
+    "BenefitSequence": 3,
+    "BenefitType": "OR",
+    "StatusCode": "A",
+    "StatusReason": "",
+    "PlanCode": "CISKNBI",
+    "StatusDate": 20240101,
+    "CoverageExpansion": {
+      "Details": [
+        {
+          "UnderwritingClassCode": "N",
+          "UnderwritingClassDescription": "Non Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "T",
+          "UnderwritingClassDescription": "Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "U",
+          "UnderwritingClassDescription": "Uni-Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "Z",
+          "UnderwritingClassDescription": "Other Insured"
+        }
+      ]
+    },
+    "MultipleInsureds": [
+      {
+        "NameId": 3567889,
+        "RelationshipToPrimaryInsured": "SPOUSE",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "U",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "U",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      }
+    ],
+    "BaseOrOtherRider": {
+      "Dividend": "",
+      "PBEN_ID": 8379171,
+      "NumberOfUnits": 1,
+      "ValuePerUnit": 250,
+      "AnnualPremiumPerUnit": 1.7789
+    },
+    "BaseForUniversalLife": null,
+    "PolicyBenefitTypeSL": null,
+    "SpecifiedAmountIncrease": null,
+    "Supplemental": null,
+    "ProductCoverages": {
+      "Description": "Skin Cancer Coverage"
+    }
+  },
+  {
+    "PBEN_ID": 8379172,
+    "PolicyNumber": "5051461911",
+    "CompanyCode": "01",
+    "BenefitSequence": 4,
+    "BenefitType": "OR",
+    "StatusCode": "A",
+    "StatusReason": "",
+    "PlanCode": "RG1716BI",
+    "StatusDate": 20240101,
+    "CoverageExpansion": {
+      "Details": [
+        {
+          "UnderwritingClassCode": "N",
+          "UnderwritingClassDescription": "Non Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "T",
+          "UnderwritingClassDescription": "Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "U",
+          "UnderwritingClassDescription": "Uni-Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "Z",
+          "UnderwritingClassDescription": "Other Insured"
+        }
+      ]
+    },
+    "MultipleInsureds": [
+      {
+        "NameId": 3567889,
+        "RelationshipToPrimaryInsured": "SPOUSE",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "U",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "U",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      }
+    ],
+    "BaseOrOtherRider": {
+      "Dividend": "",
+      "PBEN_ID": 8379172,
+      "NumberOfUnits": 30,
+      "ValuePerUnit": 1000,
+      "AnnualPremiumPerUnit": 1.513
+    },
+    "BaseForUniversalLife": null,
+    "PolicyBenefitTypeSL": null,
+    "SpecifiedAmountIncrease": null,
+    "Supplemental": null,
+    "ProductCoverages": {
+      "Description": "Additional CI Rider"
+    }
+  },
+  {
+    "PBEN_ID": 8379173,
+    "PolicyNumber": "5051461911",
+    "CompanyCode": "01",
+    "BenefitSequence": 5,
+    "BenefitType": "OR",
+    "StatusCode": "A",
+    "StatusReason": "",
+    "PlanCode": "RG1720BI",
+    "StatusDate": 20240101,
+    "CoverageExpansion": {
+      "Details": [
+        {
+          "UnderwritingClassCode": "N",
+          "UnderwritingClassDescription": "Non Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "T",
+          "UnderwritingClassDescription": "Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "U",
+          "UnderwritingClassDescription": "Uni-Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "Z",
+          "UnderwritingClassDescription": "Other Insured"
+        }
+      ]
+    },
+    "MultipleInsureds": [
+      {
+        "NameId": 3567889,
+        "RelationshipToPrimaryInsured": "SPOUSE",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0404",
+        "UnderwritingClass": "U",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 1112164,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3568787,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562171,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3999173,
+        "RelationshipToPrimaryInsured": "CHILD",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "Z",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "GH1715BI",
+        "KdBenefitExtendedKeys": "0304",
+        "UnderwritingClass": "U",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      }
+    ],
+    "BaseOrOtherRider": {
+      "Dividend": "",
+      "PBEN_ID": 8379173,
+      "NumberOfUnits": 1,
+      "ValuePerUnit": 50,
+      "AnnualPremiumPerUnit": 24.5998
+    },
+    "BaseForUniversalLife": null,
+    "PolicyBenefitTypeSL": null,
+    "SpecifiedAmountIncrease": null,
+    "Supplemental": null,
+    "ProductCoverages": {
+      "Description": "Health Screening Rider"
+    }
+  },
+  {
+    "PBEN_ID": 8379174,
+    "PolicyNumber": "5051461911",
+    "CompanyCode": "01",
+    "BenefitSequence": 6,
+    "BenefitType": "SU",
+    "StatusCode": "A",
+    "StatusReason": "",
+    "PlanCode": "CIWAIVER",
+    "StatusDate": 20240101,
+    "CoverageExpansion": {
+      "Details": [
+        {
+          "UnderwritingClassCode": "N",
+          "UnderwritingClassDescription": "Non Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "T",
+          "UnderwritingClassDescription": "Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "U",
+          "UnderwritingClassDescription": "Uni-Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "Z",
+          "UnderwritingClassDescription": "Other Insured"
+        }
+      ]
+    },
+    "MultipleInsureds": [
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "CIWAIVER",
+        "KdBenefitExtendedKeys": "01",
+        "UnderwritingClass": "U",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "CIWAIVER",
+        "KdBenefitExtendedKeys": "01",
+        "UnderwritingClass": "U",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      }
+    ],
+    "BaseOrOtherRider": null,
+    "BaseForUniversalLife": null,
+    "PolicyBenefitTypeSL": null,
+    "SpecifiedAmountIncrease": null,
+    "Supplemental": {
+      "PBEN_ID": 8379174,
+      "NumberOfUnits": 1,
+      "ValuePerUnit": 1,
+      "AnnualPremiumPerUnit": 0
+    },
+    "ProductCoverages": {
+      "Description": "Waiver Premium"
+    }
+  },
+  {
+    "PBEN_ID": 8379175,
+    "PolicyNumber": "5051461911",
+    "CompanyCode": "01",
+    "BenefitSequence": 7,
+    "BenefitType": "SU",
+    "StatusCode": "A",
+    "StatusReason": "",
+    "PlanCode": "CIROP",
+    "StatusDate": 20240101,
+    "CoverageExpansion": {
+      "Details": [
+        {
+          "UnderwritingClassCode": "N",
+          "UnderwritingClassDescription": "Non Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "T",
+          "UnderwritingClassDescription": "Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "U",
+          "UnderwritingClassDescription": "Uni-Tobacco"
+        },
+        {
+          "UnderwritingClassCode": "Z",
+          "UnderwritingClassDescription": "Other Insured"
+        }
+      ]
+    },
+    "MultipleInsureds": [
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "CIROP",
+        "KdBenefitExtendedKeys": "01",
+        "UnderwritingClass": "U",
+        "StartDate": 20240101,
+        "StopDate": 20240531
+      },
+      {
+        "NameId": 3562000,
+        "RelationshipToPrimaryInsured": "SELF",
+        "KdDefSegmentId": "CIROP",
+        "KdBenefitExtendedKeys": "01",
+        "UnderwritingClass": "U",
+        "StartDate": 20240601,
+        "StopDate": 99999999
+      }
+    ],
+    "BaseOrOtherRider": null,
+    "BaseForUniversalLife": null,
+    "PolicyBenefitTypeSL": null,
+    "SpecifiedAmountIncrease": null,
+    "Supplemental": {
+      "PBEN_ID": 8379175,
+      "NumberOfUnits": 1,
+      "ValuePerUnit": 1,
+      "AnnualPremiumPerUnit": 6.01
+    },
+    "ProductCoverages": {
+      "Description": "ROP"
+    }
+  }
+]

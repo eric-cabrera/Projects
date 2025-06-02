@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Culture=neutral">
+        <Configuration>
+          <CodeCoverage>
+            <!-- Match assembly file paths: -->
+            <ModulePaths>
+              <Include>
+                <ModulePath>.*\Assurity.Kafka*.dll</ModulePath>
+              </Include>
+              <Exclude>
+                <ModulePath>.*tests.dll</ModulePath>
+                <ModulePath>Assurity.Kafka.Engines.dll</ModulePath>
+				        <ModulePath>Assurity.Kafka.Managers.dll</ModulePath>
+				        <ModulePath>Assurity.Kafka.Utilities.dll</ModulePath>
+				        <ModulePath>Assurity.Kafka.Accessors.dll</ModulePath>
+				        <ModulePath>Assurity.Kafka.Consumer.dll</ModulePath>
+              </Exclude>
+            </ModulePaths>
+            <!-- Match attributes on any code element: -->
+            <Attributes>
+              <Exclude>
+                <!-- Don't forget "Attribute" at the end of the name -->
+                <Attribute>^System\.Diagnostics\.CodeAnalysis.ExcludeFromCodeCoverageAttribute$</Attribute>
+              </Exclude>
+            </Attributes>
+          </CodeCoverage>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>

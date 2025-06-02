@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/slnx.sqlite
+/MigrationTool/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/MigrationTool/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/MigrationTool/obj

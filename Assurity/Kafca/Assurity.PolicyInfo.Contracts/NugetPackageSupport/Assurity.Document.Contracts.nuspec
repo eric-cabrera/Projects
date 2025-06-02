@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<package>
+	<metadata>
+		<title>Assurity.PolicyInfo.Contracts</title>
+		<id>Assurity.PolicyInfo.Contracts</id>
+		<version>1.0.0</version>
+		<authors>Assurity</authors>
+		<owners>Assurity</owners>
+		<projectUrl>http://tfs1:8080/tfs/Assurity Projects Collection/Kafka Connect/_git/Assurity.PolicyInfo.Contracts</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Contracts used for Assurity policies.</description>
+		<copyright>Copyright 2022</copyright>
+		<tags>Contracts Assurity</tags>
+		<dependencies>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\PolicyContractLibrary\bin\Release\net6.0\PolicyContractLibrary.dll"
+		      target="lib\net6.0\PolicyContractLibrary.dll" />
+		<file src="..\PolicyContractLibrary\bin\Release\net6.0\PolicyContractLibrary.xml"
+		      target="lib\net6.0\PolicyContractLibrary.xml" />
+	</files>
+</package>
