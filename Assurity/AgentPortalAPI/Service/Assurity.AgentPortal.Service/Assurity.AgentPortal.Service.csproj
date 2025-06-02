@@ -1,0 +1,109 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
+		<RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<CodeAnalysisRuleSet>..\..\Assurity.Warnings.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<CodeAnalysisRuleSet>..\..\Assurity.Errors.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="appsettings.json.token" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="appsettings.json.token">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.HealthChecks.ApplicationStatus" Version="8.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.Elasticsearch" Version="8.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="8.1.0" />
+		<PackageReference Include="AspNetCore.HealthChecks.OpenIdConnectServer" Version="8.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="8.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.Uris" Version="8.0.1" />
+		<PackageReference Include="Assurity.Document.Client" Version="1.0.24339.1" />
+		<PackageReference Include="Assurity.Groups.Contracts" Version="140162.0.0" />
+		<PackageReference Include="Assurity.PdfToTiffConversion.Client" Version="1.0.24212.2" />
+		<PackageReference Include="Assurity.PolicyInformation.Contracts" Version="1.0.25062.1" />
+		<PackageReference Include="Azure.Identity" Version="1.13.1" />
+		<PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.16.3" />
+		<PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+		<PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="8.0.6">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.11" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+		<PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.2.0" />
+		<PackageReference Include="Microsoft.IdentityModel.Protocols" Version="8.2.0" />
+		<PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.2.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+		<PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.6" />
+		<PackageReference Include="Polly" Version="8.4.0" />
+		<PackageReference Include="Polly.Extensions" Version="8.4.0" />
+		<PackageReference Include="Serilog" Version="4.0.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="8.0.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.9.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.6.2" />
+		<PackageReference Include="System.IO.Packaging" Version="8.0.1" />
+		<PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+		<PackageReference Include="System.Text.Json" Version="8.0.5" />		
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="newrelic.config.token">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Properties\launchSettings.json">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Assurity.AgentPortal.Accessors\Assurity.AgentPortal.Accessors.csproj" />
+		<ProjectReference Include="..\Assurity.AgentPortal.Engines\Assurity.AgentPortal.Engines.csproj" />
+		<ProjectReference Include="..\Assurity.AgentPortal.Managers\Assurity.AgentPortal.Managers.csproj" />
+		<ProjectReference Include="..\Assurity.AgentPortal.Utilities\Assurity.AgentPortal.Utilities.csproj" />
+	</ItemGroup>
+
+	<Target Name="openapi" AfterTargets="Build">
+		<Message Text="generating openapi" Importance="high" />
+		<Exec EnvironmentVariables="DOTNET_ENVIRONMENT=LOCAL" Command="dotnet tool restore" />
+		<Exec EnvironmentVariables="DOTNET_ENVIRONMENT=LOCAL" Command="dotnet tool run swagger tofile --output ..\..\ClientGeneration\openapi.json $(OutputPath)$(AssemblyName).dll v1" />
+	</Target>
+</Project>

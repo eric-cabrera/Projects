@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<CodeAnalysisRuleSet>..\..\Assurity.Warnings.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<CodeAnalysisRuleSet>..\..\Assurity.Errors.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="PolicyInfo\Request\**" />
+	  <EmbeddedResource Remove="PolicyInfo\Request\**" />
+	  <None Remove="PolicyInfo\Request\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Assurity.ApplicationTracker.Contracts" Version="20241222.1.0" />
+		<PackageReference Include="Assurity.Claims.Contracts" Version="1.0.25036.1" />
+		<PackageReference Include="Assurity.Commissions.Debt.Contracts" Version="1.0.24128.1" />
+		<PackageReference Include="Assurity.Commissions.Internal.Contracts" Version="1.0.25028.1" />
+		<PackageReference Include="Assurity.ListBill.Service.Contracts" Version="20240717.1.0" />
+		<PackageReference Include="Assurity.PolicyInformation.Contracts" Version="1.0.25062.1" />
+		<PackageReference Include="Assurity.TaxForms.Contracts" Version="20240802.1.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+		<PackageReference Include="MongoDB.Driver" Version="2.30.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+	</ItemGroup>
+
+</Project>

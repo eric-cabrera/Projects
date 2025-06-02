@@ -1,0 +1,4 @@
+openapi.json
+TypescriptClient
+node_modules
+dist

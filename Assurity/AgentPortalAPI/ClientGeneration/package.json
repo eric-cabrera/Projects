@@ -1,0 +1,28 @@
+{
+  "name": "@assurity/newassurelink-client",
+  "version": "0.0.$(ClientVersion)",
+  "description": "API Client to interact with New AssureLink API.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "openapi-changes": "openapi-changes",
+    "generate-client": "openapi-ts",
+    "build": "tsup"
+  },
+  "author": "Assurity",
+  "license": "ISC",
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.42.1",
+    "@pb33f/openapi-changes": "^0.0.65",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}

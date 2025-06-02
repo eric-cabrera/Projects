@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "45749169-01f1-42d6-911e-ad3078010dd5",
+		"name": "AgentPortalAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12757181"
+	},
+	"item": [
+		{
+			"name": "https://devagentcenterapi.assurity.com/api/send/takeAction",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "scope",
+							"value": "{{scope}}",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{clientSecret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{clientId}}",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{accessTokenUrl}}",
+							"type": "string"
+						},
+						{
+							"key": "authUrl",
+							"value": "{{authUrl}}",
+							"type": "string"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "{{callbackUrl}}",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "body",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code_with_pkce",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "UploadData",
+							"value": "{\"PolicyNumber\":\"4180075087\",\"Message\":\"Some sort of custom message.\"}",
+							"type": "text"
+						},
+						{
+							"key": "FilesToUpload",
+							"type": "file",
+							"src": "/C:/Users/sh2800/Desktop/TestImages/Dax and Rosie.jpeg"
+						},
+						{
+							"key": "FilesToUpload",
+							"type": "file",
+							"src": "/C:/Users/sh2800/Desktop/TestImages/Dax.jpg",
+							"disabled": true
+						},
+						{
+							"key": "FilesToUpload",
+							"type": "file",
+							"src": "/C:/Users/sh2800/Desktop/TestImages/15-274-05051.pdf",
+							"disabled": true
+						},
+						{
+							"key": "FilesToUpload",
+							"type": "file",
+							"src": "/C:/Users/sh2800/Desktop/TestImages/Looney Tunes Fuming.png",
+							"disabled": true
+						},
+						{
+							"key": "FilesToUpload",
+							"type": "file",
+							"src": "/C:/Users/sh2800/Desktop/TestImages/Quasars.txt",
+							"disabled": true
+						},
+						{
+							"key": "FilesToUpload",
+							"type": "file",
+							"src": "/C:/Users/sh2800/Desktop/TestImages/WelcomeFax.tif",
+							"disabled": true
+						},
+						{
+							"key": "FilesToUpload",
+							"type": "file",
+							"src": "/C:/Users/sh2800/Desktop/TestImages/Looney Tunes Fuming.tiff",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{agentPortalApiBaseUrl}}/api/send/takeAction",
+					"host": [
+						"{{agentPortalApiBaseUrl}}"
+					],
+					"path": [
+						"api",
+						"send",
+						"takeAction"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
